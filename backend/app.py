@@ -13,9 +13,9 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
-# Expected feature names in order
-with open("../azure/model/feature_names.pkl", "rb") as f:
-	features = pickle.load(f)
+# # Expected feature names in order
+# with open("../azure/model/feature_names.pkl", "rb") as f:
+# 	features = pickle.load(f)
 
 
 FEATURE_NAMES = [
