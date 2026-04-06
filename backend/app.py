@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=[])
 
 # # Expected feature names in order
 # with open("../azure/model/feature_names.pkl", "rb") as f:

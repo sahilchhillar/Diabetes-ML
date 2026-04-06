@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import './App.css';
+import '../global_vars';
 
 const initialFormData = {
   HighBP: '0',
@@ -158,7 +159,7 @@ export default function App() {
     }
 
     try {
-      const response = await axios.post('http://127.0.0.1:8000/api/predict', payload);
+      const response = await axios.post(BACKEND_URL + '/api/predict', payload);
       setResult(response.data);
     } catch (err) {
       setError(
