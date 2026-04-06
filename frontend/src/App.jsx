@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import './App.css';
-import '../global_vars';
+import { BACKEND_URL } from '../global_vars';
 
 const initialFormData = {
   HighBP: '0',

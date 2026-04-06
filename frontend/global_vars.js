@@ -1,1 +1,1 @@
-const BACKEND_URL="https://diabetes-ml-qvch.onrender.com"
+export const BACKEND_URL="https://diabetes-ml-qvch.onrender.com"
