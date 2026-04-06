@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / React
+node_modules/
+build/
+dist/
+
+# Env files (IMPORTANT)
+.env
+.env.*
+
+# ML models & data
+*.pkl
+*.joblib
+*.csv
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
