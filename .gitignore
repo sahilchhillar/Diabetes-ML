@@ -15,7 +15,6 @@ dist/
 
 # Env files (IMPORTANT)
 .env
-.env.*
 
 # ML models & data
 *.pkl
